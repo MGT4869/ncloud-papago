@@ -8,7 +8,7 @@
 
 - requirements.txt
 
-이후 현재 디렉토리에 `text.mp3` 파일을 넣고 `python3 main.py` 를 실행하시기 바랍니다.
+이후 현재 디렉토리에 `text.txt` 파일을 넣고 `python3 main.py` 를 실행하시기 바랍니다.
 
 ## env
 
