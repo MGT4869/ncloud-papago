@@ -31,7 +31,10 @@ def write(filename, content_list):
 
 if __name__ == '__main__':
     print('번역 수행중...')
-    text_list = getText(TEXT_FILE)
+    text_list = []
+    text_list.append("실험")
+    text_list.append('입니다')
+    #text_list = getText(TEXT_FILE)
     text_translated_list = getTextTranslated(text_list)
     write(TARGET_FILE, text_translated_list)
     print('번역 완료')

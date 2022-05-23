@@ -2,13 +2,11 @@ import os
 import json
 import urllib.request
 
-from dotenv import load_dotenv
 
-load_dotenv()
 
 URL = 'https://naveropenapi.apigw.ntruss.com/nmt/v1/translation'
-CLIENT_ID = os.getenv('CLIENT_ID')
-CLIENT_SECRET = os.getenv('CLIENT_SECRET')
+CLIENT_ID = 'e9fegt1edv'
+CLIENT_SECRET = 'EpHCaoDwuJXUSlwfWSUX2sQFLuF9wfPapqYRMxiL'
 
 def translate(text, source='ko', target='en'):
     text = urllib.parse.quote(text)
